@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./Gotham-Font/GothamMedium.ttf");
+}
+@font-face {
+  font-family: "varsity_regular";
+  src: url("./varsity-font/varsity_regular.ttf");
+}
+body {
+  box-sizing: border-box;
+}
+.box1 {
+  width: 70vw;
+  height: 30vw;
+  background-color: #1e3565;
+  margin: 0vw 15vw;
+  overflow: hidden;
+  position: relative;
+}
+.bg-gradient {
+  position: absolute;
+  width: 70vw;
+  height: 65vh;
+  z-index: 0;
+  opacity: 0.3;
+}
+.Details {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  margin: 1vw 0vw 0vw 4vw;
+  width: 20vw;
+  font-size: 1.4vw;
+  color: white;
+}
+.logo {
+  width: 2vw;
+}
+.ImageCric {
+  position: absolute;
+  top: 8vw;
+  left: 8vw;
+  width: 18vw;
+  z-index: 1;
+}
+.LabelImage {
+  position: absolute;
+  top: 5vw;
+  left: 11vw;
+  width: 35vw;
+  z-index: 0;
+}
+.text-aim {
+  font-family: "varsity_regular";
+  font-weight: 400;
+  font-size: 2.6vw;
+  color: white;
+  z-index: 0;
+  position: absolute;
+  top: 10vw;
+  left: 31vw;
+  text-shadow: 6px 4px 1px #a31d2d;
+  line-height: 1vh;
+}
+.text-winning {
+  font-family: "varsity_regular";
+  font-weight: 500;
+  font-size: 3.5vw;
+  color: white;
+  z-index: 0;
+  position: absolute;
+  top: 13vw;
+  left: 28vw;
+  text-shadow: 6px 4px 1px #a31d2d;
+  line-height: 1vh;
+}
+.text-portfolio {
+  font-family: "varsity_regular";
+  font-weight: 500;
+  font-size: 3.5vw;
+  color: white;
+  z-index: 0;
+  position: absolute;
+  top: 16vw;
+  left: 26vw;
+  text-shadow: 6px 4px 1px #a31d2d;
+  line-height: 1.5vh;
+}
+.tasksInput {
+  font-family: "GothamMedium";
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  left: 47vw;
+  top: 5vw;
+  width: 18vw;
+  gap: 1vh;
+}
+.inputs {
+  height: 5.8vh;
+}
+input::placeholder,
+select {
+  font-size: 0.7vw;
+  color: #999;
+}
+input,
+select {
+  padding: 0.7vw 0.7vw;
+}
+.register {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 0.6vw;
+}
+
+.description {
+  /* font-family: "GothamMedium"; */
+  width: 70vw;
+  margin: 0vw 15vw;
+  padding: 2vw 6vw 2vw 10vw;
+  background-color: #deecff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 1.5vw;
+  color: #19437d;
+  line-height: 1.5vw;
+  font-weight: 600;
+}
+.box3 {
+  font-family: "varsity_regular";
+  width: 70vw;
+  margin: 0vw 15vw;
+  background-color: #1e3565;
+  text-align: center;
+  padding-bottom: 0.5vh;
+  font-weight: 500;
+}
+.signatureStrokes,
+.battingGear {
+  box-sizing: border-box;
+  font-family: "GothamMedium";
+  width: 50vw;
+  border: 1px solid white;
+  font-size: 1.2vw;
+  border-radius: 25px;
+  font-weight: 500;
+  margin: 0vw 10vw;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+ul {
+  width: 22vw;
+  text-align: left;
+  padding-bottom: 4vh;
+  /* padding: 0vw 0vw 0vw 0vw; */
+}
+li {
+  padding: 2vh 0vw 0vw 0vw;
+}
+.divide {
+  margin-left: 3vw;
+  border: 1px dashed white;
+}
+.registerBox {
+  font-family: "GothamMedium";
+  width: 40vw;
+  background-color: #deecff;
+  border-radius: 14px;
+  padding: 1.5vw 0vw 0vw 1vw;
+  margin: 4vw 15vw 4vw 15vw;
+}
+.text-register {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #ee1f42;
+  line-height: 0.4vh;
+}
+.text-whatsapp {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #19437d;
+  padding-bottom: 1vw;
+}
+.footer {
+  position: absolute;
+  font-family: "GothamMedium";
+  background-color: #81bdd9;
+  width: 70vw;
+  margin: 0vw 15vw;
+  padding: 2vw 5.8vw;
+}
+.footer-disclaimers {
+  font-size: 16px;
+}
+.footer-text {
+  font-size: 55%;
+}
+.text-bold {
+  font-size: 0.7vw;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 500px) {
+  .tasksInput {
+    font-family: "GothamMedium";
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    left: 47vw;
+    top: 5vw;
+    width: 18vw;
+    gap: 0.5vh;
+    height: 20vh;
+  }
+  input::placeholder {
+    padding: 0% 0%;
+    font-size: 1vw;
+    position: absolute;
+  }
+  select {
+    padding: 0% 0%;
+    font-size: 1vw;
+    color: #999;
+  }
+  .inputs {
+    height: 10px;
+    padding: 0% 0%;
+  }
+  .register {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    height: 2vh;
+    font-size: 4px;
+  }
+}
